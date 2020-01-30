@@ -1,4 +1,64 @@
-// Aula 2
+// Aula 3 - Variáveis
+// Map
+$social: (
+    facebook: #3b5998,
+    github: #4183c4,
+    instagram: #517fa4,
+    linkedin: #007bb6
+);
+// Listas
+$animals: puma, sea-slug, egret, salamander;
+$animals: puma sea-slug egret salamander;
+$animals: "puma" "sea-slug" "egret" "salamander";
+$margin: 10px 20px 15px 20px;
+// Boolean
+$color-light: false;
+$color-dark: true;
+$color-dark: null;
+
+$bg: red;
+$bg-section: rgba(0, 0, 0, 0.7); // valores RGB são convertidos para hexadecimal
+$font-color: #fff;
+
+$font: "Lucida Grande";
+$weight: bold;
+
+$width-rem: 3.5rem;
+$width-px: 300px;
+$width: 300;
+
+$width-nav: 100%;
+$font-size: 1.2rem;
+$background: #962acd;
+$color: #fff;
+$border-style: solid 1px $color;
+
+body {
+    background: $bg;
+    color: $font-color;
+}
+section {
+    background-color: $bg-section;
+    margin: $margin;
+}
+
+section {
+    font: {
+        family: $font;
+        weight: $weight;
+    }
+}
+aside {
+    width: $width-rem;
+}
+nav {
+    background: $background;
+    color: $color;
+    width: $width-nav;
+    font-size: $font-size;
+}
+
+// Aula 2 - Seletores
 nav {
     width: 100%;
     background: #000;
@@ -10,7 +70,7 @@ nav {
         li {
             color: red;
             margin: 0 20px;
-            
+
             font: {
                 family: "Times New Roman", Times, serif;
                 style: italic;
