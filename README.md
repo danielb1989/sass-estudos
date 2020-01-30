@@ -27,7 +27,7 @@ Comando para gerar o arquivo CSS a partir do arquivo SCSS toda vez que o arquivo
 
 ## Aula 7 - Mixins [Link](https://www.youtube.com/watch?v=JInBK6uFWCs&list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J&index=7)
 
-## Aula 8 - xxxxxxxxxxxx [Link]()
+## Aula 8 - Funções [Link](https://www.youtube.com/watch?v=fvBILePvdK4&list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J&index=8)
 
 ## Aula 9 - xxxxxxxxxxxx [Link]()
 
