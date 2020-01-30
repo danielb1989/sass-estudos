@@ -23,7 +23,7 @@ Comando para gerar o arquivo CSS a partir do arquivo SCSS toda vez que o arquivo
 
 ## Aula 5 - Extend [Link](https://www.youtube.com/watch?v=w7hki2quPIQ&list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J&index=5)
 
-## Aula 6 - xxxxxxxxxxxx [Link]()
+## Aula 6 - Operações [Link](https://www.youtube.com/watch?v=3nThniunnnM&list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J&index=6)
 
 ## Aula 7 - xxxxxxxxxxxx [Link]()
 
