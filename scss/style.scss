@@ -1,4 +1,48 @@
-// Aula 5 - Extend
+// Aula 06 - Operações
+
+// Soma as cores dividindo-a em conjuntos de duas casas
+p {
+    color: #010203 + #040506;
+    background-color: #010203 * 2;
+}
+// Módulo
+$font-size: 27px;
+p {
+    font-size: $font-size % 2;
+}
+// Divisão
+$base-size: 22px;
+$line-height: 2px;
+p {
+    font: 10px/8px bold italic serif;
+    font: (10px/8px) bold italic serif;
+    $width: 1000px;
+    width: $width/2;
+    width: round(1.5)/2;
+    height: (500px/2);
+    margin-left: 5px + 8px/2px;
+    // font: (italic bold 10px/8px); não vai dar certo, a conta precisa do (
+    // font-size: #{$base-size}/#{$line-height} precisa tirar o valor da interpolação
+    font-size: $base-size/$line-height
+}
+// Subtração
+h1 {
+    font-size: 5px - 2; // 3px
+}
+// Adição
+h1 {
+    // As unidades precisam ser compatíveis
+    // font-size: 2em + 22px; // unidades incompatíveis
+    font-size: 5px + 2; // 7px
+    // font-size: 5px * 2px; // unidade inválida
+}
+// adição +
+// subtração -
+// multiplicação *
+// divisão /
+// modulo %
+
+// Aula 05 - Extend
 .error {
     border: 1px #f00;
     background-color: #fdd;
@@ -38,7 +82,7 @@ a:hover {
     color: #ff8e00;
 }
 
-// Aula 4 - Interpolação
+// Aula 04 - Interpolação
 $name: destaque;
 $attr: border;
 p.#{$name} {
@@ -50,7 +94,7 @@ p {
     font: #{$font-size}/#{$line-height}
 }
 
-// Aula 3 - Variáveis
+// Aula 03 - Variáveis
 // Map
 $social: (
     facebook: #3b5998,
@@ -110,7 +154,7 @@ nav {
     font-size: $font-size;
 }
 
-// Aula 2 - Seletores
+// Aula 02 - Seletores
 nav {
     width: 100%;
     background: #000;
@@ -151,7 +195,7 @@ a {
     }
 }
 
-// Aula 1
+// Aula 01
 body {
     background-color: #000;
 }
