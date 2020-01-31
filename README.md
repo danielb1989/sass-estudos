@@ -40,3 +40,15 @@ Comando para gerar o arquivo CSS a partir do arquivo SCSS toda vez que o arquivo
 ### Aula 13 - @import [Link](https://www.youtube.com/watch?v=DhQre13u9nY&list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J&index=13)
 
 ### Aula 14 - Outputs [Link](https://www.youtube.com/watch?v=nAC7LKSdL6M&list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J&index=14)
+nested (padrão) - Comando para gerar o arquivo CSS a partir do arquivo SCSS<br>
+`node-sass --output-style nested --watch scss/style.scss css/style.css`<br>
+<br>
+expanded (aberto) - Comando para gerar o arquivo CSS a partir do arquivo SCSS<br>
+`node-sass --output-style expanded --watch scss/style.scss css/style.css`<br>
+<br>
+compact (em uma linha) - Comando para gerar o arquivo CSS a partir do arquivo SCSS<br>
+`node-sass --output-style compact --watch scss/style.scss css/style.css`<br>
+<br>
+compressed (comprimido) - Comando para gerar o arquivo CSS a partir do arquivo SCSS<br>
+`node-sass --output-style compressed --watch scss/style.scss css/style.css`<br>
+<br>
