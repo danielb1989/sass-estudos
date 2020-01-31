@@ -1,3 +1,12 @@
+// Aula 13 - @import
+@import "_partials/media_queries";
+
+// @import "foo.css"; //importando um arquivo CSS local
+// @import "foo" min-width: 400px; //importa o arquivo CSS quando a tela tem no mínimo 400px
+@import "http://foo.com/bar"; //importa arquivo via http
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans"); //importa via url()
+
+
 // Aula 12 - Media Queries
 $tablet-width: 768px;
 $desktop-width: 1024px;
@@ -165,11 +174,6 @@ h1 {
 }
 
 // Aula 06 - Operações
-// Soma as cores dividindo-a em conjuntos de duas casas
-p {
-    color: #010203 + #040506;
-    background-color: #010203 * 2;
-}
 // Módulo
 $font-size: 27px;
 p {

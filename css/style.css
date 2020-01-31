@@ -1,3 +1,8 @@
+@import "http://foo.com/bar";
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+p {
+  color: black; }
+
 header {
   padding: 3em; }
   @media (min-width: 768px) {
@@ -103,10 +108,6 @@ h1 {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px; }
-
-p {
-  color: #050709;
-  background-color: #020406; }
 
 p {
   font-size: 1px; }
