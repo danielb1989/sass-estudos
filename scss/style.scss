@@ -1,3 +1,39 @@
+// Aula 10 - Condições
+$template: dsadas;
+header {
+    @if $template == dark {
+        color: #fff;
+        background:#222;
+    } @else if ($template == blue) {
+        color: blue;
+    } @else {
+        color: red;
+    }
+}
+// Aula 09 - Placeholders
+// Placeholders são utilizados para partes de código estáticos
+@mixin center {
+    display: block;
+    margin: 0 auto;    
+}
+div {
+    @include center;
+}
+p {
+    @include center;
+}
+// O placeholder ele agrupa
+%center {
+    display: block;
+    margin: 0 auto;
+}
+div {
+    @extend %center;
+}
+p {
+    @extend %center;
+}
+
 // Aula 08 - Funções
 // Mixins x Functions
 
