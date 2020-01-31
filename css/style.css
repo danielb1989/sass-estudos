@@ -1,3 +1,15 @@
+header {
+  padding: 3em; }
+  @media (min-width: 768px) {
+    header {
+      padding: 2em; } }
+
+.sidebar {
+  width: 30%; }
+  @media screen and (orientation: landscape) {
+    .sidebar {
+      width: 40%; } }
+
 .item-6 {
   width: 12m; }
 
@@ -29,7 +41,8 @@
   width: 6em; }
 
 header {
-  color: red; }
+  color: #fff;
+  background: #222; }
 
 div {
   display: block;
